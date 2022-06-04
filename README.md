@@ -1,2 +1,2 @@
 Deployed link
-https://gaipov5791.github.io/card/
+https://gaipov5791.github.io/card/card.html
