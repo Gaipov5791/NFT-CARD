@@ -6,7 +6,7 @@ document.body.style.fontSize = "18px";
 const wrapper = document.createElement("div");
 wrapper.id = "wrapper";
 wrapper.style.display = "flex";
-wrapper.style.justifyContent = "center";
+wrapper.style.justifyContent = "space-around";
 wrapper.style.maxWidth = "1440px";
 wrapper.style.margin = "0 auto";
 wrapper.style.margin = "30px 0";
@@ -141,11 +141,9 @@ cardAuth.appendChild(cardImg4);
 cardAuth.appendChild(cardSubTitle);
 cardSubTitle.appendChild(cardSpan);
 
-
-
-
 }
 
 
-
 createCard();
+createCard();
+alert("Я оцениваю свою работу на 100 баллов!");
