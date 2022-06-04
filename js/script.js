@@ -149,5 +149,4 @@ cardSubTitle.appendChild(cardSpan);
 
 createCard();
 createCard();
-createCard();
 alert("Я оцениваю свою работу на 100 баллов!");
