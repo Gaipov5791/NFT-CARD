@@ -6,7 +6,9 @@ document.body.style.fontSize = "18px";
 const wrapper = document.createElement("div");
 wrapper.id = "wrapper";
 wrapper.style.display = "flex";
-wrapper.style.justifyContent = "space-around";
+wrapper.style.flexWrap = "wrap";
+wrapper.style.gap = "30px";
+wrapper.style.justifyContent = "center";
 wrapper.style.maxWidth = "1440px";
 wrapper.style.margin = "0 auto";
 wrapper.style.margin = "30px 0";
@@ -20,6 +22,7 @@ card.style.width = "380px";
 card.style.backgroundColor = "hsl(216, 50%, 16%)";
 card.style.boxShadow = "rgb(0 0 1 / 20%) 0px 19px 18px 20px";
 card.style.borderRadius = "20px";
+card.style.position = "relative";
 
 
 const cardImg = document.createElement("img");
@@ -144,6 +147,7 @@ cardSubTitle.appendChild(cardSpan);
 }
 
 
+createCard();
 createCard();
 createCard();
 alert("Я оцениваю свою работу на 100 баллов!");
